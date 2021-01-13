@@ -4,5 +4,5 @@
 
 function getAge(inputString){
     const str = inputString.slice(0, 1)
-    return parseInt(str)
+    return str.reduce(())
   }
