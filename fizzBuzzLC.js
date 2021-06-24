@@ -22,3 +22,5 @@ var fizzBuzz = function(n) {
     }
     return str
 };
+
+console.log(fizzBuzz(100))
