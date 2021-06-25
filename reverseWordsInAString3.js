@@ -3,13 +3,11 @@
 // Leetcode = Easy
 
 var reverseWords = function(s) {
-    const revStr = s.split(' ')
-    console.log(revStr)
-    for (let i = 0; i < revStr.length; i++) {
-        revStr[i] = revStr[i].split('').reverse().join('')
+    const revArr = s.split(' ')
+    for (let i = 0; i < revArr.length; i++) {
+        revArr[i] = revArr[i].split('').reverse().join('')
     }
-    console.log(revStr)
-    return revStr.join(' ')
+    return revArr.join(' ')
 };
 
 console.log(reverseWords(`Let's take LeetCode contest`));
